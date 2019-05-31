@@ -15,7 +15,7 @@ node {
         sh 'echo "image bhuilt succefffully"'
     }
 
-    stage('Test image') {
+    stage('Aqua microscanner') {
         /* Ideally, we would run a test framework against our image.
          * For this example, we're using a Volkswagen-type approach ;-) */
 
